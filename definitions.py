@@ -2,6 +2,10 @@ import math
 
 GRAVITY_CONST = 1
 
+with open("weigthmeasure.txt") as f:
+    WEIGTHALG = f.read()
+f.close()
+
 class Color:
     r: int
     g: int
@@ -17,8 +21,12 @@ class Color:
         self.b = color[2]
     
     def mass(self) -> int:
-        return math.sqrt(self.r+self.g+self.b)
-
+        r, g, b = self.r, self.g, self.b
+        result: float
+        result = eval(WEIGTHALG)
+        return result
+        
+         
 class Point:
     x: int
     y: int
