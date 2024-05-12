@@ -11,4 +11,5 @@ Built EXE-file is in directory "dist" of the project. Compiled with "PyInstaller
 * Enter a formula to measure "weigth" in weigthmeasure.txt (in the same folder). Use only r, g, b variables and write it in one line
 * Start the algorithm (with start.py or exe)
 * Select a point that will be the "center" one
+
 Finally, you will get a new image. If it doesn't work, try playing around with formulas: probably, you wrote smth wrong or the file you're looking for cannot be opened
